@@ -80,11 +80,11 @@ acorn@^3.0.4, acorn@^3.1.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
-adm-zip@0.4.4:
+adm-zip@0.4.4, adm-zip@~0.4.3:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.4.4.tgz#a61ed5ae6905c3aea58b3a657d25033091052736"
 
-adm-zip@^0.4.7, adm-zip@~0.4.3:
+adm-zip@^0.4.7:
   version "0.4.7"
   resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.4.7.tgz#8606c2cbf1c426ce8c8ec00174447fd49b6eafc1"
 
@@ -5091,11 +5091,11 @@ q@0.8.4:
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/q/-/q-0.8.4.tgz#662b6d97db73e141c96529ce2f10670b65ef01b0"
 
-q@1.4.1, q@^1.0.1, q@^1.4.1, q@~1.4.1:
+q@1.4.1, q@~1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
 
-q@^1.5.0:
+q@^1.0.1, q@^1.4.1, q@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.0.tgz#dd01bac9d06d30e6f219aecb8253ee9ebdc308f1"
 
@@ -6339,7 +6339,7 @@ traceur@vojtajina/traceur-compiler#add-es6-pure-transformer-dist:
   dependencies:
     commander ">=1.1"
     q-io "~1.10.6"
-    semver "2.2.1"
+    semver "*"
 
 "traverse@>=0.3.0 <0.4":
   version "0.3.9"

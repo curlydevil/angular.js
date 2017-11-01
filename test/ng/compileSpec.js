@@ -310,8 +310,7 @@ describe('$compile', function() {
         element = $compile('<div _t></div>')($rootScope);
         element = $compile('<div -t></div>')($rootScope);
         element = $compile('<div :t></div>')($rootScope);
-        element = $compile('<_t></_t>')($rootScope);
-        expect(log).toEqual('pre; post; pre; post; pre; post; pre; post');
+        expect(log).toEqual('pre; post; pre; post; pre; post');
       });
     });
 
